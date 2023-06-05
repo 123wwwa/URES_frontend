@@ -1,0 +1,25 @@
+.recentUse {
+  position: relative;
+  font-weight: 500;
+}
+.frameParent,
+.recentUseWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.recentUseWrapper {
+  background-color: var(--color-white);
+  width: 280px;
+  flex-direction: row;
+  justify-content: center;
+}
+.frameParent {
+  border-radius: var(--br-3xs);
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-anek-malayalam);
+}

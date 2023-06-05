@@ -1,0 +1,139 @@
+.image21Icon {
+  position: relative;
+  width: 16.67px;
+  height: 18px;
+  object-fit: cover;
+}
+.image21Wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-226xl) 0 var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image30Icon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+.image30Wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image29Icon {
+  position: relative;
+  width: 16.07px;
+  height: 18px;
+  object-fit: cover;
+}
+.image29Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent,
+.reservationPage1Inner {
+  width: 360px;
+  height: 40px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.frameParent {
+  background-color: var(--color-snow);
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.reservationPage1Inner {
+  flex-direction: column;
+  padding: 0 0 var(--padding-981xl);
+  align-items: center;
+}
+.select {
+  position: relative;
+  line-height: 50px;
+}
+.selectWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 73px var(--padding-3xs) var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image36Icon {
+  position: relative;
+  width: 50px;
+  height: 57px;
+  object-fit: cover;
+}
+.div,
+.washingMachine {
+  position: relative;
+  line-height: 24px;
+}
+.washingMachine {
+  display: inline-block;
+  width: 160px;
+  height: 25px;
+  flex-shrink: 0;
+}
+.div {
+  font-size: var(--font-size-7xl);
+}
+.washingMachineParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.frameContainer,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+}
+.frameWrapper {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightgreen);
+  width: 280px;
+  padding: var(--padding-11xl) 34px var(--padding-11xl) 0;
+  box-sizing: border-box;
+  justify-content: flex-end;
+}
+.frameGroup,
+.reservationPage1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameGroup {
+  height: 557px;
+  padding: var(--padding-46xl) var(--padding-3xs) 170px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: var(--gap-26xl);
+  font-size: var(--font-size-3xl);
+}
+.reservationPage1 {
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-bebas-neue);
+}

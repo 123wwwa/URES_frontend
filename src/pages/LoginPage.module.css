@@ -1,0 +1,174 @@
+.takeMyLaundry {
+  position: relative;
+}
+.takeMyLaundryWrapper {
+  width: 337px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-101xl) 0 var(--padding-11xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.image2Icon {
+  position: relative;
+  width: 17px;
+  height: 14.04px;
+  object-fit: cover;
+}
+.emailusername {
+  position: relative;
+  text-transform: capitalize;
+}
+.frameContainer,
+.image2Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image2Parent {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-100);
+  width: 280px;
+  height: 37px;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.frameContainer {
+  flex-direction: column;
+  padding: var(--padding-71xl) var(--padding-3xs) 0;
+}
+.image3Icon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+.image3Parent {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-100);
+  width: 280px;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameChild {
+  position: relative;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 17px;
+  height: 17px;
+}
+.frameGroup,
+.rectangleWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  width: 266px;
+  height: 17px;
+  padding: 0 var(--padding-101xl) 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-3xs);
+  color: var(--color-midnightblue);
+}
+.login {
+  position: relative;
+  text-transform: capitalize;
+  mix-blend-mode: normal;
+}
+.frameDiv,
+.loginWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.loginWrapper {
+  border-radius: 30px;
+  background-color: var(--color-midnightblue);
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-41xl);
+}
+.loginWrapper:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
+}
+.frameDiv {
+  flex-direction: column;
+  padding: 35px var(--padding-3xs) var(--padding-3xs);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.image4Icon {
+  position: relative;
+  width: 129px;
+  height: 43px;
+  object-fit: cover;
+}
+.frameParent,
+.image4Wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.image4Wrapper {
+  padding: var(--padding-8xs) var(--padding-3xs) var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 310px;
+  height: 400px;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.frameParent,
+.frameWrapper {
+  justify-content: center;
+}
+.frameWrapper,
+.loginPage,
+.loginPageInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loginPageInner {
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-slategray-100);
+  font-family: var(--font-sansita);
+}
+.loginPage {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  background-image: url(/public/login-page@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: 48px;
+  color: var(--color-white);
+  font-family: var(--font-bebas-neue);
+}

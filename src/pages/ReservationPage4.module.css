@@ -1,0 +1,134 @@
+.image21Icon {
+  position: relative;
+  width: 16.67px;
+  height: 18px;
+  object-fit: cover;
+}
+.image21Wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-226xl) 0 var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image30Icon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+.image30Wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image29Icon {
+  position: relative;
+  width: 16.07px;
+  height: 18px;
+  object-fit: cover;
+}
+.image29Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer,
+.frameParent,
+.reservationPage4Inner {
+  width: 360px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent {
+  background-color: var(--color-snow);
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameContainer,
+.reservationPage4Inner {
+  flex-direction: column;
+}
+.frameContainer {
+  padding: 0 0 var(--padding-981xl);
+  box-sizing: border-box;
+  align-items: center;
+}
+.reservationPage4Inner {
+  align-items: flex-start;
+}
+.yourReservationIs {
+  margin: 0;
+}
+.yourReservationIsContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.yourReservationIsContainer {
+  position: relative;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  width: 301px;
+}
+.image38Icon {
+  position: relative;
+  width: 119px;
+  height: 138px;
+  object-fit: cover;
+}
+.yourReservationIsCompleteTParent {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+}
+@keyframes blurIn {
+  0% {
+    opacity: 0;
+    filter: blur(8px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+.reservationPage4Child {
+  width: 360px;
+  height: 685px;
+  display: flex;
+  flex-direction: row;
+  padding: 118px 0 200px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  animation: blurIn 2s forwards;
+}
+.reservationPage4Child:hover {
+  filter: brightness(0.8);
+  transform: scale(1.1);
+}
+.reservationPage4 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: rgba(0, 0, 0, 0.6);
+  font-family: var(--font-bebas-neue);
+}

@@ -1,0 +1,51 @@
+.image37Icon {
+  position: relative;
+  width: 47px;
+  height: 62px;
+  object-fit: cover;
+}
+.image37Wrapper {
+  height: 62px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div,
+.dryer {
+  position: relative;
+  line-height: 24px;
+}
+.div {
+  font-size: var(--font-size-7xl);
+}
+.dryerParent {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-7xs);
+}
+.dryerParent,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 137px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-36xl);
+}
+.frameWrapper {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightgreen);
+  width: 278px;
+  flex-direction: column;
+  padding: var(--padding-5xl) var(--padding-29xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-bebas-neue);
+}

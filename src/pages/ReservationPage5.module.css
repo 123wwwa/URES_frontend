@@ -1,0 +1,189 @@
+.image21Icon {
+  position: relative;
+  width: 16.67px;
+  height: 18px;
+  object-fit: cover;
+}
+.image21Wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-226xl) 0 var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image30Icon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+.image30Wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image29Icon {
+  position: relative;
+  width: 16.07px;
+  height: 18px;
+  object-fit: cover;
+}
+.image29Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer,
+.frameParent,
+.reservationPage5Inner {
+  width: 360px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent {
+  background-color: var(--color-snow);
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameContainer,
+.reservationPage5Inner {
+  flex-direction: column;
+}
+.frameContainer {
+  padding: 0 0 var(--padding-981xl);
+  box-sizing: border-box;
+  align-items: center;
+}
+.reservationPage5Inner {
+  align-items: flex-start;
+}
+.select {
+  position: relative;
+  line-height: 50px;
+}
+.selectWrapper {
+  width: 117px;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-41xl) var(--padding-3xs) var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.stWashingMachine {
+  position: relative;
+  line-height: 24px;
+}
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--gray1);
+}
+.groupInner,
+.groupItem {
+  position: absolute;
+  height: 64.71%;
+  width: 64.71%;
+  top: 17.65%;
+  right: 17.65%;
+  bottom: 17.65%;
+  left: 17.65%;
+}
+.groupItem {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupInner {
+  border-radius: 50%;
+  background-color: var(--gray1);
+}
+.div {
+  position: absolute;
+  height: 16.67%;
+  top: 41.67%;
+  left: calc(50% - 20px);
+  display: inline-block;
+  width: 41px;
+}
+.rectangleParent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.groupWrapper {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-anek-malayalam);
+}
+.frameDiv,
+.stWashingMachineParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.stWashingMachineParent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-7xs);
+}
+.frameDiv {
+  border-radius: var(--br-3xs);
+  background-color: var(--gray1);
+  flex-direction: column;
+  padding: 28px var(--padding-10xl);
+  align-items: flex-start;
+}
+.frameGroup,
+.reservationPage5,
+.skipWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skipWrapper {
+  border-radius: var(--br-3xs);
+  background-color: #d7e7ff;
+  width: 107px;
+  height: 37px;
+  justify-content: center;
+}
+.frameGroup,
+.reservationPage5 {
+  justify-content: flex-start;
+}
+.frameGroup {
+  padding: var(--padding-46xl) var(--padding-3xs) 147px;
+  gap: var(--gap-26xl);
+  font-size: var(--font-size-3xl);
+}
+.reservationPage5 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-bebas-neue);
+}

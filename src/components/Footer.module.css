@@ -1,0 +1,70 @@
+.image25Icon {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+.image25Wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-3xs) 0;
+  align-items: center;
+  justify-content: center;
+}
+.home {
+  position: relative;
+  font-weight: 500;
+}
+.homeWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv,
+.frameGroup {
+  background-color: var(--color-gray-100);
+  width: 120px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.frameDiv {
+  background-color: var(--color-gainsboro-100);
+}
+.image27Icon {
+  position: relative;
+  width: 25px;
+  height: 26.92px;
+  object-fit: cover;
+}
+.frameContainer,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer,
+.frameWrapper {
+  width: 360px;
+  height: 75px;
+  align-items: flex-end;
+  justify-content: center;
+}
+.frameWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

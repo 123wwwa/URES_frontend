@@ -1,0 +1,143 @@
+.image21Icon {
+  position: relative;
+  width: 16.67px;
+  height: 18px;
+  object-fit: cover;
+}
+.image21Wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-226xl) 0 var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image30Icon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+.image30Wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image29Icon {
+  position: relative;
+  width: 16.07px;
+  height: 18px;
+  object-fit: cover;
+}
+.image29Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent,
+.frameWrapper,
+.reservationPage22Inner {
+  width: 360px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent {
+  background-color: var(--color-snow);
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameWrapper,
+.reservationPage22Inner {
+  flex-direction: column;
+}
+.frameWrapper {
+  padding: 0 0 var(--padding-981xl);
+  box-sizing: border-box;
+  align-items: center;
+}
+.reservationPage22Inner {
+  align-items: flex-start;
+}
+.selectTheAmount {
+  position: relative;
+  line-height: 50px;
+  display: inline-block;
+  width: 288px;
+  flex-shrink: 0;
+}
+.selectTheAmountOfYourLaunWrapper {
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-38xl) var(--padding-3xs) var(--padding-10xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameChild {
+  border-radius: 140px;
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+}
+.frameContainer {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-3xs) 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.p {
+  margin: 0;
+}
+.youMayNeedContainer {
+  position: relative;
+  line-height: 30px;
+}
+.image35Icon {
+  position: relative;
+  width: 74px;
+  height: 49px;
+  object-fit: cover;
+}
+.youMayNeed70mlOfParent {
+  width: 300px;
+  height: 80px;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.frameGroup,
+.reservationPage22,
+.youMayNeed70mlOfParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameGroup {
+  padding: 22px var(--padding-3xs) 86px;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.reservationPage22 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-bebas-neue);
+}

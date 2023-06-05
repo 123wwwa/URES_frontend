@@ -1,0 +1,69 @@
+.image31Icon {
+  position: relative;
+  width: 60px;
+  height: 55px;
+  object-fit: cover;
+}
+.div,
+.washer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 75px;
+  height: 21px;
+  flex-shrink: 0;
+}
+.div {
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-family: var(--font-anek-malayalam);
+  color: var(--color-mediumspringgreen);
+  width: 62px;
+  height: 16px;
+}
+.washerParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-8xs);
+}
+.image31Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.available {
+  position: relative;
+  font-weight: 500;
+}
+.availableWrapper {
+  width: 160px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--washer);
+  font-family: var(--font-font);
+}
+.frameParent:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
+  transform: scale(1.1);
+
+}

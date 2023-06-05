@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=font:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-anek-malayalam: "Anek Malayalam";
+  --font-font: font;
+  --font-montserrat: Montserrat;
+  --font-sansita: Sansita;
+  --font-bebas-neue: "Bebas Neue";
+
+  /* font sizes */
+  --font-size-xs: 12px;
+  --font-size-lg: 18px;
+  --font-size-13xl: 32px;
+  --font-size-sm: 14px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-7xl: 26px;
+  --font-size-3xl: 22px;
+  --font-size-21xl: 40px;
+  --font-size-17xl: 36px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #fbfbfb;
+  --surface: #fafafa;
+  --text-primary: #020202;
+  --color-black: #000;
+  --color-gainsboro-100: #d9d9d9;
+  --dryer: #f1cd87;
+  --color-mediumspringgreen: #1ae885;
+  --washer: #8ee3f0;
+  --gray1: #eaeaea;
+  --color-silver: #cac2c2;
+  --color-snow: #fcfafa;
+  --color-midnightblue: #011652;
+  --color-slategray-100: #64748b;
+  --gray2: #6b7280;
+  --text-tertiary: #d5d5d6;
+  --color-forestgreen: #07a537;
+  --text-secondary: #6a6a6d;
+  --warning: #ffaeae;
+  --color-lightgreen: #b1f0b0;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-xl: 20px;
+  --gap-8xs: 5px;
+  --gap-13xl: 32px;
+  --gap-26xl: 45px;
+  --gap-36xl: 55px;
+  --gap-7xs: 6px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-mini: 15px;
+  --padding-71xl: 90px;
+  --padding-8xs: 5px;
+  --padding-10xs: 3px;
+  --padding-226xl: 245px;
+  --padding-41xl: 60px;
+  --padding-101xl: 120px;
+  --padding-xl: 20px;
+  --padding-11xl: 30px;
+  --padding-6xl: 25px;
+  --padding-13xl: 32px;
+  --padding-base: 16px;
+  --padding-5xs: 8px;
+  --padding-46xl: 65px;
+  --padding-981xl: 1000px;
+  --padding-38xl: 57px;
+  --padding-10xl: 29px;
+  --padding-5xl: 24px;
+  --padding-29xl: 48px;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-5xl: 24px;
+  --br-base: 16px;
+}
